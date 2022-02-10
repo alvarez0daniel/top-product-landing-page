@@ -4,3 +4,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Custom Property Variables */
+:root {
+  /* font families */
+  --ff-main: 'Roboto', sans-serif;
+
+  /* font weight */
+  --fw-light: 100;
+  --fw-reg: 400;
+  --fw-bold: 900;
+
+  /* font colors */
+  --clr-txt-hero: #F9FAF8;
+  --clr-txt-hero-sec: #E5E7EB;
+  --clr-txt-header: #F9FAF8; 
+  
+  /* Background colors */
+  --clr-bg-dark: #1F2937;
+  --clr-bg-quote: #E5E7EB;
+  --clr-bg-light: #3882F6;
+  --clr-btn: #3882F6;
+}
+
