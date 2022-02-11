@@ -21,10 +21,10 @@ body {
   --ff-main: 'Roboto', sans-serif;
 
   /* font sizes */
-  --fs-logo: 24px;
-  --fs-hero-main: 48px;
-  --fs-hero-secondary: 18px;
-  --fs-link-header: 18px;
+  --fs-small: 18px;
+  --fs-med: 24px;
+  --fs-large: 36px;
+  --fs-xlarge: 48px;
 
   /* font weight */
   --fw-light: 100;
@@ -37,6 +37,7 @@ body {
   --clr-txt-header: #F9FAF8;
   --clr-txt-logo: #F9FAF8;
   --clr-txt-header-link: #E5E7EB;
+  --clr-text-footer: #E5E7EB;
   
   /* Background colors */
   --clr-bg-dark: #1F2937;
@@ -77,7 +78,7 @@ body {
 
 .logo {
   color: var(--clr-txt-header);
-  font-size: var(--fs-logo);
+  font-size: var(--fs-med);
   font-weight: var(--fw-bold);
 }
 
@@ -97,11 +98,19 @@ body {
 .nav--header ul li .link--nav {
   color: var(--clr-txt-header-link);
   text-decoration: none;
-  font-size: var(--fs-link-header);
+  font-size: var(--fs-small);
   
   padding: 2px 0;
 }
 
 .nav--header ul li .link--nav:hover {
   border-bottom: var(--clr-txt-header-link) solid 2px;
+}
+
+.container--footer {
+  display: flex;
+  justify-content: center;
+
+  color: var(--clr-text-footer);
+  font-size: var(--fs-small);
 }
