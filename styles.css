@@ -113,4 +113,5 @@ body {
 
   color: var(--clr-text-footer);
   font-size: var(--fs-small);
+  font-weight: var(--fw-light);
 }
