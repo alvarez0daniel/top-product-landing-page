@@ -53,11 +53,7 @@ body {
 }
 
 .section {
-  display: flex;
-  justify-content: center;
-
   width: 100%;
-  padding: 20px;
 }
 
 .header--page, .footer--page {
@@ -73,6 +69,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  padding: 20px;
 }
 
 .logo {
@@ -104,6 +102,38 @@ body {
 
 .nav--header ul li .link--nav:hover {
   border-bottom: var(--clr-txt-header-link) solid 2px;
+}
+
+.main--page {
+  flex-grow: 1;
+}
+
+.container--main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container--hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  padding: 20px;
+  background-color: var(--clr-bg-dark);
+}
+
+.hero--description {
+  width: 50%;
+}
+
+.hero--main-text {
+  color: var(--clr-txt-hero);
+  font-size: var(--fs-xlarge);
+}
+
+.hero--subtext {
+  color: var(--clr-txt-hero-secondary);
+  font-size: var(--fs-small);
 }
 
 .container--footer {
