@@ -276,5 +276,18 @@ body {
   background-color: var(--clr-txt-primary);
 }
 
+.section--footer {
+  background-color: var(--clr-bg-dark);
+  height: 150px;
+}
+
+.container--footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-txt-primary);
+  font-size: var(--fs-med);
+  font-weight: var(--fw-bold);
+}
 
 
