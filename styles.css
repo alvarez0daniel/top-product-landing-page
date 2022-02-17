@@ -216,11 +216,20 @@ body {
 
 
 .container--quote {
+  display: flex;
+  flex-direction: column;
   max-width: 800px;
   margin: 0 auto;
   font-size: var(--fs-large);
   font-weight: var(--fw-light);
   font-style: italic;
+}
+
+.quote--author {
+  text-align: right;
+  font-size: var(--fs-small);
+  font-weight: var(--fw-bold);
+
 }
 
 
