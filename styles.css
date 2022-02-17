@@ -17,7 +17,7 @@
   --fs-xlrg: 48px;
 
   /* font weights */
-  --fw-light: 0;
+  --fw-light: 100;
   --fw-reg: 400;
   --fw-bold: 900;
 
@@ -46,6 +46,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
+  min-height: 400px;
   padding: 10px 2vw 50px 2vw;
 }
 
@@ -204,5 +205,22 @@ body {
   font-size: var(--fs-small);
 }
 
+.section--quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 10px;
+  background-color: var(--clr-bg-quote);
+}
+
+
+
+.container--quote {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: var(--fs-large);
+  font-weight: var(--fw-light);
+  font-style: italic;
+}
 
 
